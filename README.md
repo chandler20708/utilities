@@ -1,2 +1,2 @@
 # utilities
-very useful python tools
+This is a very useful python tooling repo.
