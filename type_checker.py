@@ -9,7 +9,7 @@ def _typehint_converter(typehint: Any) -> type:
     """recursively get the type of the typehint"""
     if type(typehint) is type:
         return typehint
-    if typehint is GenericAlias: 
+    if type(typehint) is GenericAlias: 
         return get_origin(typehint)
     return object
 
